@@ -11,7 +11,7 @@ bool YamlTree::load(ci::DataSourceRef dataSource) {
 
 	// YAML::Emitter out;
 
-	std::cout << doc["root"] << std::endl;
+	//	std::cout << doc["root"] << std::endl;
 
 	return true;
 }
