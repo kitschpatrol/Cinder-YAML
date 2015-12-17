@@ -37,7 +37,7 @@ None.
 
 Tinderbox enables the /gm flag in Visual Studio projects by default, which will conflicts with the /mp flag. Disable /gm to take care of this.
 
-## Dependences
+## Dependencies
 
 **All dependencies are included in the block.**
 
