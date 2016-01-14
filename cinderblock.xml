@@ -24,12 +24,12 @@
 		
 		<platform os="msw" config="debug">
 			<includePath>src</includePath>
-			<staticLibrary>lib/msw/$(PlatformTarget)/libyaml-cppmdd.lib</staticLibrary>
+			<staticLibrary>lib/msw/$(PlatformTarget)/libyaml-cppmtd.lib</staticLibrary>
 		</platform>
 
 		<platform os="msw" config="release">
 			<includePath>src</includePath>
-			<staticLibrary>lib/msw/$(PlatformTarget)/libyaml-cppmd.lib</staticLibrary>
+			<staticLibrary>lib/msw/$(PlatformTarget)/libyaml-cppmt.lib</staticLibrary>
 		</platform>
 		
 	</block>
