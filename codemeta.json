@@ -1,0 +1,46 @@
+{
+  "@context": "https://w3id.org/codemeta/3.1",
+  "@type": "SoftwareSourceCode",
+  "name": "Cinder-YAML",
+  "identifier": "com.kitschpatrol.yaml",
+  "version": "1.0.0",
+  "description": "CinderBlock for YAML reading and writing, based on the yaml-cpp library.",
+  "author": {
+    "@type": "Person",
+    "email": "eric@ericmika.com",
+    "name": "Eric Mika",
+    "url": "https://ericmika.com"
+  },
+  "keywords": [
+    "cinder",
+    "cinderblock",
+    "yaml",
+    "yaml-cpp",
+    "parser",
+    "serialization"
+  ],
+  "programmingLanguage": "C++",
+  "operatingSystem": [
+    "macOS",
+    "Windows"
+  ],
+  "url": "https://github.com/kitschpatrol/Cinder-YAML",
+  "codeRepository": "https://github.com/kitschpatrol/Cinder-YAML.git",
+  "issueTracker": "https://github.com/kitschpatrol/Cinder-YAML/issues",
+  "license": "https://spdx.org/licenses/MIT",
+  "dateCreated": "2015-12-17",
+  "softwareRequirements": [
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "Cinder",
+      "codeRepository": "https://github.com/cinder/Cinder.git",
+      "version": "0.9.1dev"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "yaml-cpp",
+      "codeRepository": "https://github.com/jbeder/yaml-cpp.git",
+      "version": "0.5.3"
+    }
+  ]
+}
